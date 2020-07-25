@@ -1,5 +1,6 @@
 #!/bin/bash
 
+read -p "Enter a description : " description
 git add .
-git commit -m "description"
+git commit -m $description
 git push -f github ml_fiu_nlp
